@@ -18,6 +18,7 @@ Steps:
        (PATH_TO_YOUR_NEW_CLONED_FOLDER should be the full path to aruco_app folder : /*/aruco_app/)
        
  4) once in the docker container run:
+ 
        cd /shared_folder/
  5) you'll see  that all the files from the git repo are here .Now run the following cmake command which will generate the Makefile of the aruco_app :
         OpenCV_DIR=/cv/build/ cmake .
