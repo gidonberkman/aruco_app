@@ -1,9 +1,10 @@
 # aruco_app
-You can build  and run my application in a few simple steps on any linux machine that has docker installed:
+You can build  and run my application in a few simple steps on any linux machine that has docker installed.
 
 Steps:
 
-1)run the command on your linux machine:
+1)run this command on your linux machine:
+
     docker pull gidonberkmandocker22/gidons_images:opencv_ffmpeg_gcc_debian
     
 2) clone this git repository to  a new directory on your linux machine via this command:
