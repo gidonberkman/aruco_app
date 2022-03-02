@@ -15,6 +15,7 @@ Steps:
        cd /shared_folder/
  5) you'll see  that all the files from the git repo are here .Now run the following cmake command which will generate the Makefile of the aruco_app :
         OpenCV_DIR=/cv/build/ cmake .
- 6)now just run 'make' and the aruco application called aruco22 will be built.
+        
+ 6) now just run 'make' and the aruco application called aruco22 will be built.
  7) final step invoke the app via running ./aruco22  
  8) after the app has finished running you'll see an output video file named output.avi in the current directory.
