@@ -3,7 +3,7 @@ You can build  and run my application in a few simple steps on any linux machine
 
 Steps:
 
-1)run this command on your linux machine:
+1) run this command on your linux machine:
 
     docker pull gidonberkmandocker22/gidons_images:opencv_ffmpeg_gcc_debian
     
