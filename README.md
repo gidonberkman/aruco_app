@@ -7,12 +7,14 @@ Steps:
 
     docker pull gidonberkmandocker22/gidons_images:opencv_ffmpeg_gcc_debian
     
-2) clone this git repository to  a new directory on your linux machine via this command:
+2) clone this git repository to somehwere on your linux machine via this command:
 
       git clone https://github.com/gidonberkman/aruco_app.git
       
-3) run the docker image and make the new directory from previous step accesible in the docker container via this command :
-       docker run -it -v PATH_TO_YOUR_NEW_DIRECTORY:/shared_folder/ gidonberkmandocker22/gidons_images:opencv_ffmpeg_gcc_debian 
+3) run the docker image and make the new cloned folder  from the previous step called 'aruco_app' accesible in the docker container via this command :
+       docker run -it -v PATH_TO_YOUR_NEW_CLONED_FOLDER:/shared_folder/ gidonberkmandocker22/gidons_images:opencv_ffmpeg_gcc_debian 
+       
+       (PATH_TO_YOUR_NEW_CLONED_FOLDER should be the full path to aruco_app folder : /*/aruco_app/)
        
  4) once in the docker container run:
        cd /shared_folder/
